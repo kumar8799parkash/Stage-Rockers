@@ -1,0 +1,59 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Nunito Sans", sans-serif;
+        }
+
+        .faq {
+            height: 115vh;
+            width: 73.5%;
+        }
+
+        .faqheadingcont {
+            height: 15%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .faqheadingtext {
+            font-weight: 500;
+            font-size: 20px;
+            color: #9ba4bc;
+        }
+
+        .faqboxcont {
+            height: 85%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            row-gap: 7px;
+        }
+
+        .faqbox {
+            height: 10%;
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, .1);
+
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+
+        .faqboxtext {
+            margin-left: 13px;
+            font-size: 17px;
+            font-weight: 500;
+            color: #252c3f;
+            cursor: pointer;
+        }
+
+        .faqbox img{
+            position: absolute;
+            right: 25px;
+            cursor: pointer;
+        }

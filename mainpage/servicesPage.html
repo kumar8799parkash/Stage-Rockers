@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Stage Rockers</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Nunito Sans", sans-serif;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .twoboxescont {
+            position: relative;
+            height: 430px;
+            width: 73.5%;
+            margin-top: 55px;
+        }
+
+        .firstboxcont {
+            position: absolute;
+            width: 390px;
+            height: 350px;
+            background: #fff;
+            border-radius: 20px;
+            margin-top: 40px;
+            padding: 30px 25px;
+            box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, .15);
+            z-index: 2;
+        }
+
+        .headingbox {
+            font-size: 35px;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .textcont {
+            margin-top: 15px;
+        }
+
+        .textconttext {
+            color: #666;
+            font-size: 13.5px;
+            text-align: left;
+            line-height: 1.3;
+        }
+
+        .optionscont {
+            margin-top: 5px;
+            height: 21%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .option {
+            height: 50%;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            column-gap: 9px;
+        }
+
+        .option img {
+            height: 16px;
+            width: 16px;
+        }
+
+        .optiontext {
+            font-size: 13.5px;
+            color: #333;
+        }
+
+        .buttoncont {
+            height: 20%;
+            width: 100%;
+            display: flex;
+            align-items: last baseline;
+            justify-content: center;
+        }
+
+        .button {
+            height: 83%;
+            width: 90%;
+            background-color: #ff7429;
+            border-radius: 5px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            column-gap: 10px;
+        }
+
+        .button:hover {
+            box-shadow: 0px 5px 10px 0px #ffbb99;
+        }
+
+        .button img {
+            height: 24px;
+            width: 24px;
+        }
+
+        .buttontext {
+            color: #fff;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .secondboxcont {
+            position: absolute;
+            width: 867px;
+            height: 430px;
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, .15);
+            right: 0px;
+            z-index: 1;
+            cursor: pointer;
+        }
+
+        .secondboxcont img {
+            width: 867px;
+            height: 430px;
+            border-radius: 20px;
+            object-fit: cover;
+        }
+
+        .bigboxescont {
+            height: 422vh;
+            width: 73.5%;
+        }
+
+        .bigbox {
+            height: 50vh;
+            width: 100%;
+            border-radius: 15px;
+            margin-top: 18px;
+            background-color: #ff8141;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            cursor: pointer;
+        }
+
+        .line1cont {
+            height: 15%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 10px;
+        }
+
+        .line1cont img {
+            height: 50px;
+            width: 50px;
+        }
+
+
+        .line1text {
+            font-size: 24px;
+            font-weight: 500;
+            color: white;
+            margin-top: 7px;
+        }
+
+        .line2cont {
+            height: 15%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .line2text {
+            font-size: 44px;
+            font-weight: 500;
+            color: white;
+        }
+    </style>
+
+    <link rel="stylesheet" href="header.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav">
+                <div class="logo">
+                    <img src="dance logo.png" alt="Logo">
+                </div>
+
+                <div class="nav1cont">
+                    <div class="nav1 artists">Artists</div>
+                    <div class="nav1 gallery">Gallery</div>
+                    <div class="nav1 services">Services</div>
+                </div>
+
+                <div class="signinsearchcont">
+                    <div class="signinsearchlogo">
+                        <img src="https://static.soulartists.net/packs/media/images/0c83d4a6d42d82da5f4e.svg" alt="">
+                    </div>
+                    <div class="signinsearchlink">
+                        <input type="text" placeholder="Search" name="signinsearch" id="signinsearch">
+                    </div>
+
+                </div>
+
+                <div class="nav2cont">
+                    <div class="nav2 login">Log in</div>
+                    <div class="nav2 signup">Sign up</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <main>
+        <div class="twoboxescont">
+            <div class="firstboxcont">
+                <div class="headingbox">Stage Rockers <span style="color: #ff7a33;">Services</span></div>
+
+                <div class="textcont">
+                    <div class="textconttext">Stage Rockers provides a wide variety of artist related services such as
+                        exclusive
+                        management, music mastering, video production, and record label services designed to bring your
+                        creative vision to life.</div>
+                </div>
+
+
+
+                <div class="optionscont">
+                    <div class="option option1">
+                        <img src="option1logo.svg" alt="">
+                        <div class="optiontext">Quality Productions</div>
+                    </div>
+                    <div class="option option2">
+                        <img src="option2.logo.svg" alt="">
+                        <div class="optiontext">Music Distribution</div>
+                    </div>
+                    <div class="option option3">
+                        <img src="option3.logo.svg" alt="">
+                        <div class="optiontext">Record Label</div>
+                    </div>
+                    <div class="option option4">
+                        <img src="option4.logo.svg" alt="">
+                        <div class="optiontext">Recording & Mastering</div>
+                    </div>
+                </div>
+
+                <div class="buttoncont">
+                    <div class="button">
+                        <img src="buttonlogo.svg" alt="">
+                        <div class="buttontext">Get Started</div>
+                    </div>
+                </div>
+            </div>
+            <div class="secondboxcont">
+                <img src="backimage.jpeg" alt="">
+            </div>
+        </div>
+
+
+        <div class="bigboxescont">
+            <div class="bigbox bigbox1">
+                <div class="line1cont">
+                    <img src="dance logo white.png" alt="">
+                    <div class="line1text">Stage Rockers</div>
+                </div>
+                <div class="line2cont">
+                    <div class="line2text">Exclusive Artist Management</div>
+                </div>
+            </div>
+            <div class="bigbox bigbox2">
+                <div class="line1cont">
+                    <img src="dance logo white.png" alt="">
+                    <div class="line1text">Stage Rockers</div>
+                </div>
+                <div class="line2cont">
+                    <div class="line2text">Video Production</div>
+                </div>
+            </div>
+            <div class="bigbox bigbox3">
+                <div class="line1cont">
+                    <img src="dance logo white.png" alt="">
+                    <div class="line1text">Stage Rockers</div>
+                </div>
+                <div class="line2cont">
+                    <div class="line2text">Photo Shoots</div>
+                </div>
+            </div>
+            <div class="bigbox bigbox4">
+                <div class="line1cont">
+                    <img src="dance logo white.png" alt="">
+                    <div class="line1text">Stage Rockers</div>
+                </div>
+                <div class="line2cont">
+                    <div class="line2text">Rehearsal Sessions</div>
+                </div>
+            </div>
+            <div class="bigbox bigbox5">
+                <div class="line1cont">
+                    <img src="dance logo white.png" alt="">
+                    <div class="line1text">Stage Rockers</div>
+                </div>
+                <div class="line2cont">
+                    <div class="line2text">Music Recording & Mastering</div>
+                </div>
+            </div>
+            <div class="bigbox bigbox6">
+                <div class="line1cont">
+                    <img src="dance logo white.png" alt="">
+                    <div class="line1text">Stage Rockers</div>
+                </div>
+                <div class="line2cont">
+                    <div class="line2text">Piano Rentals</div>
+                </div>
+            </div>
+            <div class="bigbox bigbox7">
+                <div class="line1cont">
+                    <img src="dance logo white.png" alt="">
+                    <div class="line1text">Stage Rockers</div>
+                </div>
+                <div class="line2cont">
+                    <div class="line2text">Sound Equipment Rentals</div>
+                </div>
+            </div>
+            <div class="bigbox bigbox8">
+                <div class="line1cont">
+                    <img src="dance logo white.png" alt="">
+                    <div class="line1text">Stage Rockers</div>
+                </div>
+                <div class="line2cont">
+                    <div class="line2text">Legal Services & Letters</div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+
+</body>
+
+</html>

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Nunito Sans", sans-serif;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .signincont {
+            height: 120vh;
+            width: 37.5vw;
+            padding: 56px 73px;
+            box-shadow: 0 3px 10px 0 rgba(147, 147, 147, .2);
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .logocont {
+            height: 30%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .logoimagecont {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .logoimagecont img {
+            height: 95px;
+            width: 95px;
+        }
+
+        .imageheadingcont {
+            height: 25%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .imageheadingtext {
+            font-size: 22px;
+            font-weight: 600;
+            color: #04031c;
+        }
+
+        .imagebaselinecont {
+            height: 25%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .imagebaselinetext {
+            color: #9ba4bc;
+            font-size: 16px;
+        }
+
+        .emailcont {
+            height: 50%;
+            width: 100%;
+        }
+
+        .gmailcont {
+            height: 30%;
+            width: 100%;
+        }
+
+
+        .passwordcont {
+            height: 30%;
+            width: 100%;
+        }
+
+        .passwordheadingcont {
+            height: 30%;
+            width: 100%;
+            color: #9ba4bc;
+            font-size: 12px;
+            display: flex;
+            align-items: last baseline;
+        }
+
+        .passwordinputcont {
+            height: 70%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .passwordinputbox {
+            height: 60%;
+            width: 100%;
+            border: 1px solid #acacb0;
+            border-radius: 5px;
+            color: #454f69;
+            display: flex;
+            align-items: center;
+        }
+
+
+        .passwordinputbox input {
+            margin-left: 10px;
+            outline: none;
+            border: none;
+            font-size: 15px;
+        }
+
+        .gmailheadingcont {
+            height: 30%;
+            width: 100%;
+            color: #9ba4bc;
+            font-size: 12px;
+            display: flex;
+            align-items: last baseline;
+        }
+
+        .inputcont {
+            height: 70%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+        .inputbox {
+            height: 60%;
+            width: 100%;
+            border: 1px solid #acacb0;
+            border-radius: 5px;
+            color: #454f69;
+            display: flex;
+            align-items: center;
+        }
+
+        .inputbox input {
+            margin-left: 10px;
+            outline: none;
+            border: none;
+            font-size: 15px;
+        }
+
+        .passwordcont {
+            height: 30%;
+            width: 100%;
+        }
+
+        .forgetpasswordcont {
+            height: 40%;
+            width: 100%;
+        }
+
+        .forgetpasswordheadingcont {
+            height: 30%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .forgetpasswordheadingtext {
+            color: #ff8141;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .forgetpasswordbuttoncont {
+            height: 30%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            background: #ff8141;
+            border-radius: 5px;
+            margin-bottom: 25px;
+            cursor: pointer;
+        }
+
+        .forgetpasswordbuttoncont:hover {
+            box-shadow: 0px 5px 10px 0px #ffbb99;
+
+        }
+
+        .forgetpasswordline {
+            border-top: 1px solid #bfbfc1;
+        }
+
+        .baselinecont {
+            height: 20%;
+            width: 100%;
+            padding: 30px 30px;
+        }
+
+        .line1textcont {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #9ba4bc;
+            font-size: 15px;
+        }
+
+        .line2textcont {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #9ba4bc;
+            margin-top: 15px;
+            font-size: 15px;
+
+        }
+
+        .line3textcont {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 5px;
+            color: #ff8141;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+    </style>
+    <link rel="stylesheet" href="header.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav">
+                <div class="logo">
+                    <img src="dance logo.png" alt="Logo">
+                </div>
+
+                <div class="nav1cont">
+                    <div class="nav1 artists">Artists</div>
+                    <div class="nav1 gallery">Gallery</div>
+                    <div class="nav1 services">Services</div>
+                </div>
+
+                <div class="signinsearchcont">
+                    <div class="signinsearchlogo">
+                        <img src="https://static.soulartists.net/packs/media/images/0c83d4a6d42d82da5f4e.svg" alt="">
+                    </div>
+                    <div class="signinsearchlink">
+                        <input type="text" placeholder="Search" name="signinsearch" id="signinsearch">
+                    </div>
+
+                </div>
+
+                <div class="nav2cont">
+                    <div class="nav2 login">Log in</div>
+                    <div class="nav2 signup">Sign up</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="signincont">
+            <div class="logocont">
+                <div class="logoimagecont">
+                    <img src="dance logo.png" alt="">
+                </div>
+                <div class="imageheadingcont">
+                    <div class="imageheadingtext">Log in to Soul Artists</div>
+                </div>
+                <div class="imagebaselinecont">
+                    <div class="imagebaselinetext">Select a sign in method</div>
+                </div>
+            </div>
+
+
+            <div class="emailcont">
+                <div class="gmailcont">
+                    <div class="gmailheadingcont">Email</div>
+                    <div class="inputcont">
+                        <div class="inputbox">
+                            <input type="text" id="emailinput" name="emailinput"
+                                placeholder="example@email.com"></input>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="passwordcont">
+                    <div class="passwordheadingcont">Password</div>
+                    <div class="passwordinputcont">
+                        <div class="passwordinputbox">
+                            <input type="text" id="emailinput" name="emailinput" placeholder="********"></input>
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="forgetpasswordcont">
+                    <div class="forgetpasswordheadingcont">
+                        <div class="forgetpasswordheadingtext">Forgot password?</div>
+                    </div>
+                    <div class="forgetpasswordbuttoncont">Sign in</div>
+                    <div class="forgetpasswordline"></div>
+                </div>
+            </div>
+
+            <div class="baselinecont">
+                <div class="line1textcont">Don't have an account?<span
+                        style="color: #ff8141; cursor: pointer;">&nbsp;Sign Up</span></div>
+                <div class="line2textcont">By creating an account, I accept Soul Artists</div>
+                <div class="line3textcont">Terms & Conditions</div>
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>

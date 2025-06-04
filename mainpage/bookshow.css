@@ -1,0 +1,108 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Nunito Sans", sans-serif;
+        }
+
+        .bookshow {
+            height: 120vh;
+            width: 73.5%;
+            margin-top: 50px;
+        }
+
+        .bookshowheadingcont {
+            height: 12%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .bookshowheadingcont {
+            font-size: 20px;
+            color: #252c3f;
+            font-weight: 500;
+        }
+
+        .bookshowtablecont {
+            height: 76%;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .column {
+            height: 100%;
+            width: 25%;
+        }
+
+        .row {
+            height: 5%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #131313;
+            font-weight: normal;
+        }
+
+        .rowheading {
+            height: 15%;
+            width: 100%;
+            font-size: 18px;
+            color: #252c3f;
+            font-weight: 600;
+        }
+
+
+        .bookshowbasecont {
+            height: 12%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            column-gap: 25px;
+
+        }
+
+        .bookshowbasebutton1 {
+            height: 40px;
+            color: #fff;
+            background: #ff7631;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .bookshowbasebutton1:hover {
+            box-shadow: 0px 5px 10px 0px #ffbb99;
+        }
+
+        .bookshowbasebutton2:hover {
+            box-shadow: 0px 5px 10px 0px #ffbb99;
+        }
+
+
+        .bookshowbasebutton2 {
+            height: 40px;
+            color: #fff;
+            background: #ff7631;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+        }
+
+        .bookshowbasebutton1text {
+            padding: 20px;
+        }
+
+        .bookshowbasebutton2text {
+            padding: 20px;
+
+        }

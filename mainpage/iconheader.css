@@ -1,0 +1,56 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Nunito Sans", sans-serif;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .iconsbarcont {
+            height: 9.5vh;
+            width: 72.5vw;
+            display: flex;
+            border-bottom: 1px solid #c8cbd1;
+        }
+
+        .icon {
+            height: 100%;
+            width: 7.692%;
+        }
+
+        .iconimagecont {
+            height: 60%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .iconimagecont img {
+            height: 26px;
+            width: 26px;
+            cursor: pointer;
+        }
+
+        .icontextcont {
+            height: 40%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+
+        .icontext {
+            color: #9ba4bc;
+            font-size: 12px;
+            font-weight: 500;
+            cursor: pointer;
+
+        }

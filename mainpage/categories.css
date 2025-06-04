@@ -1,0 +1,54 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Nunito Sans", sans-serif;
+        }
+
+        .categories {
+            height: 100vh;
+            width: 73.5%;
+        }
+
+        .categoryheading {
+            height: 12%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+        .categoryheadingtext{
+            color: #737781;
+            font-weight: 500;
+            font-size: 16px;
+            position: relative;
+            left: 3px;
+            top: 10px;
+        }
+
+        .categorycontainer {
+            height: 88%;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            column-gap: 11px;
+        }
+
+        .categorybox{
+            height: 18%;
+            width: 49.5%;
+            border-radius: 10px;
+            background-color: #ff8141;
+            color: white;
+            display: flex;
+            align-items: last baseline;
+            cursor: pointer;
+        }
+
+        .categoryboxtext{
+            position: relative;
+            color: white;
+            left: 10px;
+            bottom: 15px;
+        }

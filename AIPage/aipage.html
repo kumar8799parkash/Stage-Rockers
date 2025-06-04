@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search with AI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Nunito Sans", sans-serif;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+        }
+
+        .maincont {
+            height: 120vh;
+            width: 72.5vw;
+            margin-top: 50px;
+            box-shadow: 0 2px 7px 3px #d7dae4;
+            border-radius: 20px;
+            padding-top: 40px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .mainheadingcont {
+            height: 15vh;
+            width: 100%;
+        }
+
+        .upperline {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .logoimagecont {
+            height: 50px;
+            width: 50px;
+        }
+
+        .logoimagecont img {
+            height: 100%;
+            width: 100%;
+        }
+
+
+        .baseline {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .baselinetext {
+            margin-left: 10px;
+        }
+
+        .subcont {
+            height: 65vh;
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px 0px #d7dae4;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .searchcont {
+            height: 40px;
+            width: 94%;
+            box-shadow: 0 2px 7px 3px #d7dae4;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        .searchcont input {
+            outline: none;
+            border: none;
+            font-size: 15px;
+            margin-left: 20px
+            
+        }
+    </style>
+    <link rel="stylesheet" href="aiheader.css">
+</head>
+
+<body>
+
+
+    <header>
+        <div class="navbar">
+            <div class="nav">
+                <div class="logo">
+                    <img src="../images/AIPageImages/dance logo.png" alt="Logo">
+                </div>
+
+                <div class="nav1cont">
+                    <!--<div class="nav1 artists">Artists</div>
+                    <div class="nav1 gallery">Gallery</div>
+                    <div class="nav1 services">Services</div>  -->
+
+                    <a href="/artistsPage/artistsPage.html" class="nav1 artists">Artists</a>
+                    <a href="/gallerypage/galleryPage.html" class="nav1 gallery">Gallery</a>
+                    <a href="/servicesPage/servicesPage.html" class="nav1 services">Services</a>
+
+                </div>
+
+                <div class="signinsearchcont">
+                    <div class="signinsearchlogo">
+                        <img src="../images/AIPageImages/newsearchicon.svg" alt="">
+                    </div>
+                    <div class="signinsearchlink">
+                        <input type="text" placeholder="Search" name="signinsearch" id="signinsearch">
+                    </div>
+
+                </div>
+
+                <div class="nav2cont">
+                    <!--<div class="nav2 login">Log in</div>
+                    <div class="nav2 signup">Sign up</div>-->
+
+                    <a class="nav2 login" href="/signinpage/signinpage.html">Log in</a>
+                    <a class="nav2 signup" href="/signinpage/signinpage.html">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="maincont">
+            <div class="mainheadingcont">
+                <div class="upperline">
+                    <div class="logoimagecont">
+                        <img src="../images/AIPageImages/dance logo.png" alt="">
+                    </div>
+                    <div class="headingtext">Soul Artists AI (<span style="color:  rgb(255, 116, 47);">beta</span>)
+                    </div>
+                </div>
+                <div class="baseline">
+                    <div class="baselinetext">What kind of<span style="color:rgb(255, 116, 47);">&nbsp;live
+                            entertainment&nbsp;</span>are you looking for?</div>
+                </div>
+            </div>
+            <div class="subcont">
+                <div class="searchcont">
+                    <input placeholder="Send a message..." type="text" name="" id="">
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+
+</body>
+
+</html>

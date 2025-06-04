@@ -1,0 +1,67 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Nunito Sans", sans-serif;
+        }
+
+        .clients {
+            height: 52vh;
+            width: 73.5%;
+        }
+
+        .clientheadingcont {
+            height: 35%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .clientheadingtext {
+            font-weight: 500;
+            color: #7c8290;
+            font-size: 16px;
+        }
+
+        .brandslogo {
+            height: 65%;
+            width: 100%;
+        }
+
+        .brandslogocont {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            column-gap: 25px;
+        }
+
+        .brandslogocont img {
+            height: 45px;
+            width: auto;
+        }
+
+        .clientbuttoncont {
+            height: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .clientbutton {
+            height: 50px;
+            width: 100px;
+            background-color: #ff742f;
+            color: white;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .clientbutton:hover {
+            cursor: pointer;
+            box-shadow: 0px 5px 10px 0px #ffbb99;
+        }
