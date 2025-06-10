@@ -103,7 +103,6 @@
         .scrollmaincont {
             height: 45%;
             width: 100%;
-            border: 1px solid black;
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -113,10 +112,9 @@
         .scrollheadingcont {
             height: 7%;
             width: 85%;
-            border: 1px solid black;
         }
 
-        
+
         .scrollheadingtext {
             color: #454f69;
         }
@@ -124,15 +122,55 @@
         .scrollcont {
             height: 93%;
             width: 85%;
-            border: 1px solid black;
-            border-radius: 5px;
+            border-radius: 6px;
             overflow-y: scroll;
+            box-shadow: 0px 0px 10px #cacaca;
         }
 
-        .scrollelement{
+        .scrollelement {
             height: 13.33%;
             width: 100%;
-            border: 1px solid black;
+            border-bottom: 1px solid rgb(190, 190, 190);
+            display: flex;
+            align-items: center;
+            column-gap: 8px;
+        }
+
+        .scrollelement:hover {
+            opacity: 80%;
+        }
+
+        .scrollelement img {
+            height: 27px;
+            width: 27px;
+            margin-left: 8px;
+        }
+
+        .scrollelementtext {
+            font-size: 15.6px;
+            color: #454f69;
+        }
+
+
+        /* width */
+        ::-webkit-scrollbar {
+            /*Applying all the properties is not necessary, just use which you want*/
+            width: 2px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #ff8141;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #ff8141;
         }
     </style>
 
@@ -173,18 +211,52 @@
                 <div class="scrollheadingcont">
                     <div class="scrollheadingtext">Art Types</div>
                 </div>
+
+
                 <div class="scrollcont">
-                    <div class="scrollelement scrollelement1"></div>
-                    <div class="scrollelement scrollelement2"></div>
-                    <div class="scrollelement scrollelement3"></div>
-                    <div class="scrollelement scrollelement4"></div>
-                    <div class="scrollelement scrollelement5"></div>
-                    <div class="scrollelement scrollelement6"></div>
-                    <div class="scrollelement scrollelement7"></div>
-                    <div class="scrollelement scrollelement8"></div>
-                    <div class="scrollelement scrollelement9"></div>
-                    <div class="scrollelement scrollelement10"></div>
+                    <div class="scrollelement scrollelement1">
+                        <img src="../images/quotesPageImages/scrollimage.jpeg" alt="">
+                        <div class="scrollelementtext">Musician</div>
+                    </div>
+                    <div class="scrollelement scrollelement2">
+                        <img src="../images/quotesPageImages/scrollimage2.jpeg" alt="">
+                        <div class="scrollelementtext">DJ</div>
+                    </div>
+                    <div class="scrollelement scrollelement3">
+                        <img src="../images/quotesPageImages/scrollimage3.jpeg" alt="">
+                        <div class="scrollelementtext">Magician</div>
+                    </div>
+                    <div class="scrollelement scrollelement4">
+                        <img src="../images/quotesPageImages/scrollimage4.jpeg" alt="">
+                        <div class="scrollelementtext">Dancer</div>
+                    </div>
+                    <div class="scrollelement scrollelement5">
+                        <img src="../images/quotesPageImages/scrollimage5.jpeg" alt="">
+                        <div class="scrollelementtext">Circus</div>
+                    </div>
+                    <div class="scrollelement scrollelement6">
+                        <img src="../images/quotesPageImages/scrollimage6.jpeg" alt="">
+                        <div class="scrollelementtext">Speciality Act</div>
+                    </div>
+                    <div class="scrollelement scrollelement7">
+                        <img src="../images/quotesPageImages/scrollimage7.jpeg" alt="">
+                        <div class="scrollelementtext">Fire & Flow</div>
+                    </div>
+                    <div class="scrollelement scrollelement8">
+                        <img src="../images/quotesPageImages/scrollimage8.jpeg" alt="">
+                        <div class="scrollelementtext">Presenter</div>
+                    </div>
+                    <div class="scrollelement scrollelement9">
+                        <img src="../images/quotesPageImages/scrollimage9.jpeg" alt="">
+                        <div class="scrollelementtext">Comedian</div>
+                    </div>
+                    <div class="scrollelement scrollelement10">
+                        <img src="../images/quotesPageImages/scrollimage10.jpeg" alt="">
+                        <div class="scrollelementtext">Photography</div>
+                    </div>
                 </div>
+
+
             </div>
 
 
